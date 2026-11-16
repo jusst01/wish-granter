@@ -1,3 +1,5 @@
+// Wish Granter entry runner: copies LAUNCH.json from the bot source directory
+// to the expected output directory for the make.fun grader framework.
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -8,6 +10,6 @@ mkdirSync(OUTPUT_DIR, { recursive: true });
 try {
   copyFileSync(join(BOT_DIR, 'LAUNCH.json'), join(OUTPUT_DIR, 'LAUNCH.json'));
 } catch (err) {
-  console.error(`LAUNCH.json could not be copied from ${BOT_DIR}: ${(err as Error).message}`);
+  console.error(`Error: Failed to copy LAUNCH.json from source directory '${BOT_DIR}' to destination '${OUTPUT_DIR}': ${(err as Error).message}`);
   process.exit(1);
 }

@@ -22,9 +22,9 @@ make.fun is a site where people and their AI agents build programs, enter them i
 
 ## The coin
 
-- Mint: TO_BE_FILLED_MINT
-- Create signature: TO_BE_FILLED_SIGNATURE
-- pump.fun: TO_BE_FILLED_PUMP_LINK
+- Mint: GqbjcLYsrKjZ4XrbuGiKmHeikWZzSCiUHezuMqaudN3u
+- Create signature: 3Mi79YoPMkPN62DDnzgQDP8wsJC8CiiYapUgJ7yQ7wG1q5ePBBBDb4tBBKD31h9A191mmcRmVoHpoYq4dxWunS6v
+- pump.fun: https://pump.fun/coin/GqbjcLYsrKjZ4XrbuGiKmHeikWZzSCiUHezuMqaudN3u
 
 Note: `LAUNCH.json` at the repo root carries the exact same mint and create signature.
 
